@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<style>
+	.c1
+	{
+		padding-left:300px;
+	}
+	button
+	{
+		background-color:green;
+		color:white;
+		padding:10px;
+	}
+	fieldset
+	{
+		padding-left:175px;
+		width:400px;
+		height:600px;
+	}
+	
+	</style>
+</head>
+<body>
+<div class="c1">
+	<form>
+		<fieldset>
+			<legend>Registration Form:</legend><br><br>
+				<table>
+					<tr><td>FirstName	:<input type="text" name="firstname" required><br><br></td></tr>
+					<tr><td>LastName	:<input type="text" name="lastname" required><br><br></td></tr>
+					<tr><td>Gender:<input type="radio">Female<input type="radio">Male<input type="radio">Other<br><br></td></tr>
+					<tr><td>Date of Birth:<input type="date" name="date" required><br><br></td></tr>
+					<tr><td>Username:<input type="text" required><br><br></td></tr>
+					<tr><td>Password:<input type="password" name="pass"><br><br></td></tr>
+					<tr><td>Confirm Password:<input type="password" name="passw"><br><br></td></tr>
+					<tr><td><label>Address:</label><textarea rows="1" cols="20"></textarea><br><br></td></tr>
+					<tr><td>Postal Code:<input type="text" pattern="[0-9]*"><br><br></td></tr>
+					<tr><td>Mobile No.:<input type="tel" name="phoneno" pattern="[[0-9]{3}-[0-9]{3}-[0-9]{4}]"><br><br></td></tr>
+					<tr><td>Email-Id:<input type="email"><br><br></td></tr>
+				</table>
+				<button type="button">Submit</button>
+				<a href="create.html" style="padding-left:50px">create an account?</a>
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>
